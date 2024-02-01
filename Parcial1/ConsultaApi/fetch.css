@@ -1,22 +1,25 @@
 .title{
     text-align: center;
-    background-color: rgb(187, 11, 11);
+    background-color: rgb(182, 5, 5);
     height: auto;
     margin: auto;
-    font-size: 40px;
+    font-size: 50px;
 	font-weight: bold;
-    border-radius: 40px;
-    color: white;
+    border-radius: 90px;
+    color: rgb(255, 217, 5);
 	width: auto;
-	padding: 40px;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-    /*background-image: url('img/pokedex.png');
-    background-size: 40% 20%;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;*/
+	padding: 10px;
+	font-family: 'PokemonHollow', sans-serif;
    
+}
+@font-face {
+    font-family: 'PokemonHollow';
+    src: url('fonts/Pokemon Hollow.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PokemonSolid';
+    src: url('fonts/Pokemon Solid.ttf') format('truetype');
 }
 #prueba{
 
@@ -358,7 +361,7 @@ body{
 	div#picture
 	{
 		height: 175px;
-		width: 254px;
+		width: 230px;
 		margin-top: 20px;
 		margin-bottom: 9px;
 		background-color: #fff;
