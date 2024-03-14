@@ -17,9 +17,10 @@
         "monospaceLinks": false
     },
     "opts": {
-        "template": "node_modules/clean-jsdoc-theme",  
-        "encoding": "utf8",               
-        "destination": "./doc/",       
-        "recurse": true                 
+        "template": "node_modules/clean-jsdoc-theme",
+        "description": "Documentación para mi proyecto de JavaScript",
+        "encoding": "utf8",
+        "destination": "./doc/",
+        "recurse": true
     }
 }
