@@ -1,0 +1,10 @@
+transfer infrastructure master
+transfer naming master
+transfer pdc
+transfer rid master
+transfer schema master
+
+con esto hemos hecho el movimiento de los roles...
+y
+
+mediante el comando move-addirectoryserveroperationmasterrole -identity srvbogdc01 -operationmasterrole schemamaster, domainnamingmaster, ridmaster, infrastructuramaster, pdcmulator
