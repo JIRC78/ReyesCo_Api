@@ -1,4 +1,3 @@
-export function calcularArea(radio) {
-    const pi = Math.PI;
-    return pi * radio ** 2;
-  }
+export function calcularArea(base, altura) {
+  return (base * altura) / 2;
+}
